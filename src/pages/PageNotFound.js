@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export const PageNotFound = () => {
+  useEffect(() => {
+    document.title=`Page Not Found`;
+  });
+
   return (
-    <div>PageNotFound</div>
+    <div>Page Not Found</div>
   )
 }
