@@ -1,3 +1,3 @@
 export {PageNotFound} from "./PageNotFound";
-export {Card} from "./Card";
+export {Home} from "./Home";
 export {Cart} from "./Cart";
