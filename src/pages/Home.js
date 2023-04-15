@@ -6,12 +6,12 @@ export const Home = ({title}) => {
   useTitle(title);
 
     const products = [
-        {"id": 1, "name": "Sony Wh-Ch510 Bluetooth Wireless", "price": 149, "image": "/assets/images/1001.png"},
-        {"id": 2, "name": "boAt Rockerz 450", "price": 49, "image": "/assets/images/1002.png"},
-        {"id": 3, "name": "JBL Tune 760NC", "price": 179, "image": "/assets/images/1003.png"},
-        {"id": 4, "name": "Logitech H111 Wired", "price": 39, "image": "/assets/images/1004.png"},
-        {"id": 5, "name": "APPLE Airpods Max Bluetooth Headset", "price": 199, "image": "/assets/images/1005.png"},
-        {"id": 6, "name": "ZEBRONICS Zeb-Thunder Wired", "price": 29, "image": "/assets/images/1006.png"}
+        {"id": 1, "name": "Sony Wh-Ch510 Bluetooth Wireless", "price": 149, "image": "src/assets/images/book.jpg"},
+        {"id": 2, "name": "boAt Rockerz 450", "price": 49, "image": "src/assets/images/headphones.jpg"},
+        {"id": 3, "name": "JBL Tune 760NC", "price": 179, "image": "src/assets/images/shirt.jpg"},
+        {"id": 4, "name": "Logitech H111 Wired", "price": 39, "image": "src/assets/images/shoes.jpg"},
+        {"id": 5, "name": "APPLE Airpods Max Bluetooth Headset", "price": 199, "image": "src/assets/images/watch.jpg"},
+        {"id": 6, "name": "ZEBRONICS Zeb-Thunder Wired", "price": 29, "image": "src/assets/images/book.jpg"}
       ]
   return (
     <main>
