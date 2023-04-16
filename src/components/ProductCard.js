@@ -1,4 +1,5 @@
 import "./ProductCard.css";
+
 import { useCart } from "../context/CartContext";
 
 export const ProductCard = ({product}) => {
