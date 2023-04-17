@@ -1,5 +1,4 @@
 import { createContext, useContext, useReducer } from "react";
-
 import { cartReducer } from "../reducer/cartReducer";
 
 
@@ -32,7 +31,6 @@ export const CartProvider = ({children}) => {
             }
         })
     }
-
 
     const value = {
         total: state.total,
